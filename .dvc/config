@@ -1,0 +1,7 @@
+[core]
+    remote = data
+['remote "data"']
+    url = ssh://192.168.0.45/archive/test/
+    user = user
+    port = 22
+    password = 3883!snuai
