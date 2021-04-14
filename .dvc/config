@@ -1,12 +1,7 @@
 [core]
-    remote = my_model
-['remote "datas"']
+    remote = data
+['remote "data"']
     url = ssh://192.168.0.45/archive/test/
-    user = snuailab
-    port = 22
-    password = 3883!snuai
-['remote "my_model"']
-    url = ssh://192.168.0.45/archive/models
-    user = snuailab
+    user = user
     port = 22
     password = 3883!snuai
